@@ -1,0 +1,17 @@
+{
+  "name": "fix-packagejson-version",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "author": "twanluttik <twanluttik@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "fix": "cd ./src/ && node index.js"
+  },
+  "dependencies": {
+    "tsc": "^2.0.4"
+  },
+  "devDependencies": {
+    "parse-yarn-lockfile": "^1.0.0"
+  }
+}
